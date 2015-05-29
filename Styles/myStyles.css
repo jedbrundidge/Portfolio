@@ -1,0 +1,69 @@
+﻿body{
+	background-image:url('../Images/Brooklyn-Bridge-Wallpaper-night-lights-the-river-desktop1.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+nav{
+	height:100px;
+	width:100%;
+}
+
+#nav_ul li{
+	list-style:none;
+	font-size:35px;
+	padding-right:20px;
+	position:relative;
+}
+
+#nav_ul a{
+	color:white;
+	font-family: 'Playfair Display', serif;
+	text-shadow: -2px 2px 3px white;
+}
+
+#nav_ul a:hover{
+	color:black;
+}
+
+#header{
+	text-align:center;
+	color:silver;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+	font: 'BazarMedium';
+	letter-spacing: 10px;
+	position:relative;
+	top:40px;
+}
+
+h6{
+	font-size:large;
+}
+
+#view{
+	font-size:xx-large;
+	color: white;
+	border:thick 2px white;
+	height:650px;
+	position:relative;
+	top:90px;
+	border:3px white solid;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+
+#footer{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	color:white;
+	width: 100%;
+	font-size:x-large;
+}
+
+#footer_ul li{
+	list-style:none;
+	display:inline;
+	padding-right: 50px;
+}
