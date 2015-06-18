@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-route.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+<link rel="stylesheet" href="Styles/myStyles.css">
+<link href="JS/routes.js">
+<link href="JS/jquery.js">
+<script src="JS/routes.js"></script>
+</head>
+<body ng-app="RoutingApp">
+	<div id="nav_containter">
+		<nav id="navbar">
+			<div class="container">
+				<ul class="nav nav-pills" id="nav_ul">
+					<li id="home"><a href="#home">Home</a></li>
+					<li id="about"><a href="#about">About Me</a></li>
+					<li id="experience"><a href="#experience">Experience</a></li>
+					<li id="education"><a href="#education">Education</a></li>
+					<li id="projects"><a href="#projects">Projects</a></li>
+					<li id="contacts"><a href="#contact">Contact Me</a></li>
+				</ul> <!-- end unordered list -->
+			</div> <!-- end container div -->
+		</nav> <!-- end nav -->
+	</div> <!-- end nav container -->
+		<div id="header">
+			<header>
+				<h6>Welcome to Jed Brundidge's Portfolio</h6>
+			</header> <!-- end header -->
+		</div> <!-- end header div -->
+		<div id="view" class="slide-pop" ng-view>
+	    </div> <!-- end content div -->
+	    <div id="footer">
+		<footer>
+			<ul id="footer_ul">
+				<li>Jed Brundidge</li>
+				<li><span class="glyphicon glyphicon-phone-alt"></span>612-402-8464</li>
+				<li><span class="glyphicon glyphicon-envelope"></span>brun7695@stthomas.edu</li>
+			</ul> <!-- end ul -->
+		</footer> <!-- end footer -->
+	</div> <!-- end footer div -->
+</body>
+
+</html>
